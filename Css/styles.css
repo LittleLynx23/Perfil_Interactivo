@@ -1,0 +1,126 @@
+ @font-face {
+        font-family: 'Pokemon';
+        src: url('../fonts/pokemon classic.ttf') format('truetype');
+    }
+
+    body{
+        font-family: 'Pokemon', monospace;
+        margin:0;
+        background-color:#6f7a55;
+        background-image: url("../img/fondo.png");
+        background-size: cover;       
+        background-position: center;   
+    }
+
+    
+    header{
+        font-family: "Pokemon", monospace;
+        color:white;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: auto;
+     
+
+    }
+
+    footer{
+        color:black;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    section{
+        background-color: #fd9381;
+        border: 2px solid #fd4c2d;
+        padding: 2px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+
+    }
+
+    .botonesnav{
+        list-style: none;
+        padding-left: 0px; 
+        list-style-type: none; 
+        font-size: 14px; 
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .botonesnav > li img {
+    width: 16px; 
+    height: auto;
+}
+
+    .botonesnav > li a {
+        font-weight: normal;
+        color: black;
+    }
+
+    .botonesnav > li a:hover {
+        font-weight: bold;
+        color: #fd4c2d;
+    }
+
+    a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration:none; 
+    }
+
+
+    a:hover {
+        color: #fd9381;
+    }
+
+
+    .Cuadro {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #3b452c;
+    border: 2px solid gray;
+    border-top: 0px;
+    }
+
+
+    #flex {
+        display: flex;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+
+    .ventana {
+        background-color: white;
+        padding: 20px;
+        padding-top: 1px;
+        padding-bottom: 10px;
+        margin-top: 2px;
+        border: 2px solid #fd9381;
+        border-radius: inherit;
+    }
+
+
+    .ventanaheader{
+        background-color: #fd4c2d;
+        padding: 5px;
+        color: white;
+        font-size: smaller;
+        font-weight: bold;
+        border-radius: inherit;
+        font-family: 'Pokemon';
+    }
+
+    .ventanaheader::before {
+        background-image: url('../img/image.png');
+        background-size: 25px auto;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        content: "";
+        float: left;
+    }
