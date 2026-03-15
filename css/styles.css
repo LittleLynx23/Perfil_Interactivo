@@ -345,7 +345,7 @@
 
 
     .datoscuriosos{
-        list-style-image: url(../Img/cafemin.png);
+        list-style-image: url("../Img/cafemin.png");
        
     }
 
