@@ -1,6 +1,6 @@
      @font-face {
-        font-family: 'Pokemon';
-        src: url('../Fonts/Pokemon Classic.ttf') format('truetype');
+        font-family: "Pokemon";
+        src: url("../Fonts/Pokemon Classic.ttf") format('truetype');
     }
 
     .progress-bar {
@@ -18,7 +18,7 @@
 
 
     body{
-        font-family: 'Pokemon', monospace;
+        font-family: "Pokemon", monospace;
         margin:0;
         background-color:#6f7a55;
         background-image: url("../Img/fondo.png");
@@ -333,6 +333,15 @@
         display:block;
         margin:auto;
         float: right;
+    }
+
+    #kakarot{
+        width:100px;
+        height:100px;
+        padding: 10px;
+        display:block;
+        margin:auto;
+        float: left;
     }
 
         #amarilla{
