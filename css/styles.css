@@ -21,7 +21,7 @@
         font-family: "Pokemon", monospace;
         margin:0;
         background-color:#6f7a55;
-        background-image: url("../Img/fondo.png");
+        background-image: url("../Img/fondo.jpg");
         background-size: cover;       
         background-position: center;   
     }
@@ -46,11 +46,11 @@
     }
 
     section{
-        background-color: #fd9381;
-        border: 2px solid #fd4c2d;
+        background-color: #f0a699;
+        border: 2px solid #f54a2c;
         padding: 2px;
         margin-bottom: 20px;
-        border-radius: 2px;
+        border-radius: 10px;
 
         
 
@@ -92,6 +92,13 @@
         color: #fd9381;
     }
 
+    .navhover{
+        color: #000000;
+        font-weight: bold;
+        text-decoration:none; 
+    }
+
+    .navhover:hover { color: #fd9381; }
 
     .Cuadro {
         max-width: 1100px;
@@ -99,6 +106,7 @@
         background-color: #3b452c;
         border: 2px solid rgb(0, 51, 13);
         border-top: 0px;
+        
     }
 
 
@@ -118,19 +126,19 @@
         padding-bottom: 20px;
         margin-top: 2px;
         border: 2px solid #fd9381;
-        border-radius: inherit;
+        border-radius: 15px;
       
         
     }
 
 
     .ventanaheader{
-        background-color: #fd4c2d;
+        background-color: #ee6851;
         padding: 5px;
         color: white;
         font-size: smaller;
         font-weight: bold;
-        border-radius: inherit;
+        border-radius: 5px;
         font-family: 'Pokemon';
     }
 
@@ -151,6 +159,7 @@
         padding: 10px;
         margin-bottom:10px;
         font-size: smaller;
+        
     }
 
     .cajita > p a {
@@ -193,9 +202,16 @@
         font-size: 15px;
         color:#000000;
         padding: 10px;
-        margin-left: 0;
-        margin-right: 10px;
+        margin: 10px;
     
+    }
+
+    .letraartista{
+        color: #000000;
+        text-align: center;
+        font-size: 10px;
+        padding: 2px;
+        margin: 2px;
     }
 
 
@@ -212,11 +228,48 @@
         margin-bottom: 5px;
     }
 
+    
+    .artista {
+        width: 300px; 
+        height: 200px; 
+        border-radius: 10px;
+        border: 3px solid;
+        border-color: #ee6851;
+        
+    }
+
+    
+    .sectionart{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+    }
+
+    
+    .video{
+        width: 100%;
+        max-width: 400px; /* con esto limito el video ese */
+        height: 250px;
+        margin: auto; /* para centrar */
+        overflow: hidden;
+    
+    }
+
+
+    #video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        padding: 0%;
+    }
+
     #perro{
         width:150px;
         height:150px;
         display:block;
         margin:auto;
+    
     }
 
    
@@ -283,6 +336,7 @@
         display: flex;
         justify-content: center;
         padding: ''; 
+        
     }
 
 
@@ -291,6 +345,7 @@
         max-width: 100%; 
         object-fit: contain; 
         margin: 0;       
+        border-radius: 10px;
     }
 
  
@@ -312,10 +367,12 @@
         position: relative;
     }
 
+     /* sobre mi*/
 
     #me{
         width:250px;
         border:4px solid #fd4c2d;
+        border-radius: 15px;
         padding:0px;
         background:white;
         display:block;
@@ -327,12 +384,14 @@
         width: 15px;
     }
 
-    #penguin{
-        width:150px;
+    #mom{
+        width:180px;
         height:150px;
         display:block;
         margin:auto;
         float: right;
+        border: 2px solid #f54a2c;
+        border-radius: 15px;
     }
 
     #kakarot{
@@ -377,7 +436,7 @@
         min-height: 100vh;
       }
 
-
+ /* galeria de arte*/
     #art-section{
         display:grid;
         grid-template-columns: repeat(3, 1fr);
@@ -412,6 +471,29 @@
     }
 
 
+     /*Párrafo de la página inicial */
+
+     
+     #letrapag{
+        text-align: center;
+        color: white;
+     }
+
+    
+    /*Botones del coso de la pag inicial*/ 
+
+    
+    .botonboots{
+        padding: 5px;
+        margin: 2px;
+        --bs-btn-bg: #fd4c2d;
+        --bs-btn-border-color: #66190b;
+        --bs-btn-color: white;
+
+        --bs-btn-hover-bg: #fd9381;
+        --bs-btn-hover-border-color: #812819;
+        --bs-btn-hover-color: white;
+    }
 
     /* Responsivo */
 
