@@ -102,7 +102,8 @@
 
     .Cuadro {
         max-width: 1100px;
-        margin: 0 auto;
+        margin: 40px auto;
+        padding: 20px;
         background-color: #3b452c;
         border: 2px solid rgb(0, 51, 13);
         border-top: 0px;
