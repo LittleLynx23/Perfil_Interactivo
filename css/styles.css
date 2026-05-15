@@ -275,48 +275,28 @@
     }
 
 
+    .video-container-centered {
+        display: flex;
+        justify-content: center; /* Centra horizontalmente */
+        width: 100%;
+        margin-top: 20px; /* Espacio respecto a los dibujos */
+    }
 
+    /* Ajustes para la ventana del video */
+    .music-video-section {
+        width: 100%;
+        max-width: 400px; /* Lo aumenté un poco de 300px para que se vea mejor, pero puedes dejarlo en 300px */
+    }
 
-
-
-
-
-
-
-.video-container-centered {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    width: 100%;
-    margin-top: 20px; /* Espacio respecto a los dibujos */
-}
-
-/* Ajustes para la ventana del video */
-.music-video-section {
-    width: 100%;
-    max-width: 400px; /* Lo aumenté un poco de 300px para que se vea mejor, pero puedes dejarlo en 300px */
-}
-
-/* Asegura que el video no se salga de su ventana */
-#video {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
+    /* Asegura que el video no se salga de su ventana */
+    #video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
 
     
-
     #perro{
         width:150px;
         height:150px;
