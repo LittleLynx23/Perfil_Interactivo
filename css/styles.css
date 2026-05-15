@@ -135,7 +135,7 @@
     }
 
 
-    .ventanaheader{
+    .ventanaheader, .ventanaheader2{
         display: flex;
         align-items: center;
         padding: 5px 10px;
@@ -153,6 +153,16 @@
 
     .ventanaheader::before {
         background-image: url('../Img/image.png');
+        background-size: 25px auto;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        content: "";
+        float: left;
+    }
+
+    .ventanaheader2::before {
+        background-image: url('../Img/bola8.png');
         background-size: 25px auto;
         background-repeat: no-repeat;
         width: 30px;
@@ -537,6 +547,35 @@
         --bs-btn-hover-border-color: #812819;
         --bs-btn-hover-color: white;
     }
+
+
+    /* Estilo para la caja de texto de la Bola 8 */
+    .input-retro {
+        font-family: "Pokemon", monospace; /* Usa tu misma fuente */
+        width: 90%;
+        padding: 8px;
+        border: 2px solid #fd4c2d; /* Tu color naranja/rojo */
+        border-radius: 8px;
+        background-color: #f9f6f0; /* Un tono cremita claro */
+        font-size: 10px;
+        color: black;
+        outline: none;
+        text-align: center;
+    }
+
+    /* Efecto cuando el usuario hace clic para escribir */
+    .input-retro:focus {
+        border-color: #66190b; 
+        background-color: #ffffff;
+    }
+
+
+
+
+
+
+
+
 
     /* Responsivo */
 
