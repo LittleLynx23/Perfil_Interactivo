@@ -282,6 +282,8 @@
         margin-top: 20px; /* Espacio respecto a los dibujos */
     }
 
+    
+    
     /* Ajustes para la ventana del video */
     .music-video-section {
         width: 100%;
@@ -549,13 +551,36 @@
         background-color: #ffffff;
     }
 
+ /* Esto es lo de la galería de arte */
 
+    .art-gallery-container {
+        display: flex;
+        justify-content: center;
+    }
 
+    .art-gallery-section {
+        width: 100%;
+        max-width: 400px;
+    }
 
+    .art-gallery-ventana {
+        padding: 0%;
+        width: 100%;
+    }
 
+    /* NUEVA REGLA: Fuerza a todas las imágenes de la galería a ser idénticas */
+    #carouselArtGallery .carousel-item img {
+        width: 100% !important;
+        height: 300px !important; /* Modifica este valor si las quieres más altas o bajitas */
+        object-fit: cover !important; /* Recorta la imagen de forma proporcional para que no se estire ni se vea borrosa */
+    }
 
-
-
+    .art-caption-bg {
+        background: rgba(0, 0, 0, 0.5);
+        padding: 5px;
+        border-radius: 5px;
+        display: inline-block;
+    }
 
     /* Responsivo */
 

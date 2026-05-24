@@ -1,24 +1,24 @@
 function preguntarBola8() {
 
-    // 1. Buscamos la caja de texto y extraemos el valor
+   
     let cajaDeTexto = document.getElementById("pregunta-bola8");
     let pregunta = cajaDeTexto.value;
 
-    // 2. Verificamos que no esté vacío
+    
     if (pregunta.trim() !== "") {
 
-        // 3. Convertimos la pregunta a minúsculas
+    
         let textoMinusculas = pregunta.toLowerCase();
 
-        // 4. Lista de palabras prohibidas
-        let palabrasProhibidas = ["sapo", "perra", "coma mierda", "loca", "sapa", "que le importa?", "que le importa", "gay", "perro"] ;
+       
+        let palabrasProhibidas = ["sapo", "perra", "coma mierda", "loca", "sapa", "que le importa?", "que le importa", "gay", "perro", "pendeja"] ;
 
-        // 5. Verificamos si contiene groserías
+      
         let esGrosero = palabrasProhibidas.some(palabra =>
             textoMinusculas.includes(palabra)
         );
 
-        // 6. Si fue grosero
+     
         if (esGrosero) {
 
             let mensajesGroseros = [
@@ -70,4 +70,15 @@ function preguntarBola8() {
         // Si no escribe nada
         alert("🙄 Escribe una pregunta primero. La Bola 8 no lee mentes… todavía.");
     }
+}
+
+function cambiarfoto(){
+    let imagen = document.getElementById("me");
+    if(imagen.src.includes("yo.jpeg")){
+
+        imagen.src = "Img/yo2.png";
+    } else {
+        imagen.src = "Img/yo.jpeg";
+    }
+
 }
